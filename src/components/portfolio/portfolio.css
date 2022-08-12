@@ -23,11 +23,6 @@
     overflow: hidden;
 }
 
-.portfolio__item h3 {
-    margin: 1.2 0 2rem;
-    text-align: center;
-}
-
 .portfolio__item__cta {
     display: flex;
     gap: 1rem;
