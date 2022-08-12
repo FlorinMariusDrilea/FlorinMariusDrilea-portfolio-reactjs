@@ -3,6 +3,8 @@ import IMG1 from '../../assets/weather-1.png'
 import IMG2 from '../../assets/portfolio.png'
 import IMG3 from '../../assets/wordle.png'
 import IMG4 from '../../assets/robots.png'
+import IMG5 from '../../assets/football.png'
+import IMG6 from '../../assets/calculator.png'
 import './portfolio.css'
 
 const imageData = [
@@ -33,6 +35,20 @@ const imageData = [
     title: 'RobotFriends search engine using ReactJS',
     github: 'https://github.com/FlorinMariusDrilea/robots',
     demo: 'https://florinmariusdrilea.github.io/robots/'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Football Clicker using javascript, html and css',
+    github: 'https://github.com/FlorinMariusDrilea/football-clicker',
+    demo: 'https://florinmariusdrilea.github.io/football-clicker/main.html'
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'A simple Python calculator using PySimpleGUI library',
+    github: 'https://github.com/FlorinMariusDrilea/python-calculator',
+    demo: IMG6
   }
 ]
 
