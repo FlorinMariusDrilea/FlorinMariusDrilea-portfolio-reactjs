@@ -14,7 +14,7 @@
 }
 
 .about__me__image {
-    margin-top: 10rem;
+    margin-top: 4rem;
     border-radius: 5rem;
     overflow: hidden;
     transition: var(--transition);
@@ -76,7 +76,7 @@
     }
     
     .about__me__image {
-        margin-bottom: 12rem;
+        margin-bottom: 8rem;
         height: 110%;
     }
     
@@ -94,7 +94,7 @@
     }
     
     .about__me__image {
-        margin-bottom: 10rem;
+        margin-bottom: 6rem;
         height: 100%;
     }
     

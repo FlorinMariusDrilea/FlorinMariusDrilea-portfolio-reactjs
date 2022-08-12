@@ -3,7 +3,7 @@ import IMG1 from '../../assets/weather-1.webp'
 import IMG2 from '../../assets/portfolio.webp'
 import IMG3 from '../../assets/wordle.webp'
 import IMG4 from '../../assets/robots.webp'
-import IMG5 from '../../assets/football.webp'
+import IMG5 from '../../assets/football-2.webp'
 import IMG6 from '../../assets/calculator.webp'
 import './portfolio.css'
 
