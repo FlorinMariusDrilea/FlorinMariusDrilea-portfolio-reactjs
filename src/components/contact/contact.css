@@ -60,7 +60,7 @@ button {
     color: var(--color-primary-variant);
 }
 
-.buton.btn.btn-primary {
+.button-pushable {
     width: 40%;
 }
 
@@ -76,7 +76,7 @@ button {
         font-size: medium;
     }
     
-    .buton.btn.btn-primary {
+    .button-pushable {
         width: 35%;
     }
 }
@@ -88,7 +88,7 @@ button {
         width: var(--container-with-sm);
     }
     
-    .buton.btn.btn-primary {
+    .button-pushable {
         width: 30%;
     }
 }

@@ -35,7 +35,11 @@ const Contact = () => {
                     <input type='text' name='name' placeholder='Your Name' required />
                     <input type='email' name='email' placeholder='Your Email' required />
                     <textarea name='message' rows="10" placeholder='Write here' required />
-                    <button type='submit' className='buton btn btn-primary'>Send</button>
+                    <button class="button-pushable">
+                        <span class="button-shadow"></span>
+                        <span class="button-edge"></span>
+                        <span class="button-front text">Send</span>
+                    </button>
                 </form>
             </div>
         </section>
