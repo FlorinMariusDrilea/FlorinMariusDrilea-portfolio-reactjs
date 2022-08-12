@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+::placeholder {
+    color: var(--color-light);
+}
+
+:root {
+    --color-bg: #1A1A1D;
+    --color-bg-variant: #6F2232;
+    --color-primary: #950740;
+    --color-primary-variant: #C3073F;
+    --color-white: white;   
+    --color-light: #d7dfca;
+    
+    --transition: all 450ms ease;
+    
+    --ease: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    --content-animation: scale(0.7) rotateX(-230deg);
+    
+    --container-with-lg: 75%;
+    --container-with-md: 86%;
+    --container-with-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    /* background-image: url(../assets/image.png); */
+}
+
+/* =========== General Styles =========== */
+
+.container {
+    width: var(--container-with-lg);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h2 {
+    margin-bottom: 3rem;
+}
+
+.text-light {
+    color: var(--color-light)
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-light);
+    border-radius: 1rem;
+    border: 2px solid var(--color-light);
+    padding: 0.75rem 1.20rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-primary {
+    background: var(--color-bg-variant);
+    color: var(--color-light);
+}
+
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+/* =================== MEDIA(MEDIUM) ====================== */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-with-md);
+    }
+    
+    section {
+        margin-bottom: 6rem;
+    }
+}
+
+/* =================== MEDIA(SMALL) ====================== */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-with-sm);
+    }
+    
+    section > h2 {
+        margin-bottom: 2rem;
+    }
+}

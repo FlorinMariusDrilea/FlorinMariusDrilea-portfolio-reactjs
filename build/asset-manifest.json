@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13289c89.css",
+    "main.js": "/static/js/main.d22bc61f.js",
+    "static/media/img1_2.png": "/static/media/img1_2.cd4220ff079be3d760c8.png",
+    "static/media/img1-low.png": "/static/media/img1-low.bd4fd931d7d7f9b3de12.png",
+    "static/media/sky.png": "/static/media/sky.f95e5db2f3bc014c21ad.png",
+    "static/media/Florin_Marius_Drilea.pdf": "/static/media/Florin_Marius_Drilea.3241f65f7ade7b993b72.pdf",
+    "static/media/portfolio-1.png": "/static/media/portfolio-1.5f4faa4f33ade7617abe.png",
+    "static/media/scroll-down.png": "/static/media/scroll-down.9a0d1ce4c1492173b264.png",
+    "static/media/weather-1.png": "/static/media/weather-1.ce11f2f39ee218328039.png",
+    "static/media/unicredit.jpeg": "/static/media/unicredit.beca12576aa795f955b2.jpeg",
+    "static/media/thg.webp": "/static/media/thg.af8dfa22cead16eab2c1.webp",
+    "index.html": "/index.html",
+    "main.13289c89.css.map": "/static/css/main.13289c89.css.map",
+    "main.d22bc61f.js.map": "/static/js/main.d22bc61f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13289c89.css",
+    "static/js/main.d22bc61f.js"
+  ]
+}
