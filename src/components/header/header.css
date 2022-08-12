@@ -19,12 +19,16 @@ header {
     justify-content: center;
 }
 
+.cta > a.btn-primary {
+    background: var(--color-primary);
+}
+
 /* ======= SOCIALS =========== */
 
 .header__socials {
     margin-top: 1rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 1.4rem;
     justify-content: center;
 }
 
