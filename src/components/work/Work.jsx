@@ -18,7 +18,7 @@ const Work = () => {
         name: "Sky Betting and Gaming",
         role: "Software Engineer",
         years: "10/2021 - present",
-        description: "Working in the promotions team using scala and Kafka in an agile environment to maintain and create new applications used in our team to process the data and implement the logic on different promotions. Also being on call for our team, taking care of our services when something goes wrong during out hours."
+        description: "Working in the promotions team using scala and Kafka in an agile environment to maintain and create new applications used in our team to process the data and implement the logic on different promotions. Also being on call for our team, taking care of our services when something goes wrong during out of hours."
     },
     {
         job: Job2,

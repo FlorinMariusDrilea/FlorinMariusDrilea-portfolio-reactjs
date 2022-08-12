@@ -38,7 +38,7 @@ const Contact = () => {
                     <button class="button-pushable">
                         <span class="button-shadow"></span>
                         <span class="button-edge"></span>
-                        <span class="button-front text">Send</span>
+                        <span class="button-front">Send</span>
                     </button>
                 </form>
             </div>
