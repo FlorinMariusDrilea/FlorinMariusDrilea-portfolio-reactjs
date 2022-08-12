@@ -14,9 +14,9 @@
 
 .contact__option {
     background: var(--color-bg-variant);
-    border-radius: 1.4rem;
+    border-radius: 1.5rem;
     padding: 1rem;
-    border: 1px solid transparent;
+    border: 2px solid var(--color-light);
     text-align: center;
     transition: var(--transition);
 }

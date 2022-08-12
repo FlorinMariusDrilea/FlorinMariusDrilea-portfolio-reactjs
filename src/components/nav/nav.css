@@ -3,7 +3,7 @@ nav {
     position: fixed;
     width: max-content;
     z-index: 1;
-    top: 30%;
+    top: 25%;
     left: 2rem;
     overflow-x: hidden;
     border-radius: 3rem;
@@ -52,10 +52,60 @@ nav a.active {
     }
 }
 
+@media screen and (max-height: 568px) {
+    nav {
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        width: max-content;
+        z-index: 1;
+        top: 30%;
+        left: 2rem;
+        overflow-x: hidden;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+    }
+    
+    nav a {
+        background: transparent;
+        padding: 0.9rem;
+        border-radius: 50%;
+        display: flex;
+        font-size: 1.0rem;
+    }
+}
+
+
 /* =================== MEDIA(SMALL) ====================== */
 
 @media screen and (max-width: 600px) {
     
+    nav {
+        background: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        padding: 0.7rem 1.7rem;
+        display: block;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        top: auto;
+        transform: translateX(-50%);
+        bottom: 2rem;
+        display: flex;
+        gap: 0.8rem;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+    }
+    
+    nav a {
+        background: transparent;
+        padding: 0.9rem;
+        border-radius: 50%;
+        display: flex;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-height: 400px) {
     nav {
         background: rgba(0, 0, 0, 0.3);
         width: max-content;

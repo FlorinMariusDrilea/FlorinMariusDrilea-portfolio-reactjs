@@ -13,17 +13,24 @@ footer a {
 .footer__logo {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
-    width: 20%;
+    width: 14%;
     display: inline-block;
+}
+
+.footer__logo:hover {
+    transform: scale(1.2);
 }
 
 .permalinks {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 1.2rem;
     flex-wrap: wrap;
-    background: var(--color-light);
+}
+
+.permalinks a{
+    color: black;
 }
 
 .footer__socials {
@@ -50,8 +57,7 @@ footer a {
 
 .footer__copyright {
     margin-bottom: -1rem;
-    color: var(--color-bg);
-    background: var(--color-light);
+    color: black;
 }
 
 /* =================== MEDIA(MEDIUM) ====================== */
