@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import ME from '../../assets/img1-low.png'
 import SCROLL from '../../assets/scroll-down.png'
-import CTA from './CTA'
+import CV from './CVButton'
 import Socials from './HeaderSocials'
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
                 <h5>And I am a</h5>
                 <h5>Software Engineer</h5>
                 <Socials />
-                <CTA />
+                <CV />
                 <div className="me">
                     <img src={ME} alt="me" />    
                 </div>

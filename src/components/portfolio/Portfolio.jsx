@@ -1,6 +1,8 @@
 import React from 'react'
 import IMG1 from '../../assets/weather-1.png'
-import IMG2 from '../../assets/portfolio-1.png'
+import IMG2 from '../../assets/portfolio.png'
+import IMG3 from '../../assets/wordle.png'
+import IMG4 from '../../assets/robots.png'
 import './portfolio.css'
 
 const imageData = [
@@ -14,37 +16,23 @@ const imageData = [
   {
     id: 2,
     image: IMG2,
-    title: 'My Portfolio created using ReactJS',
+    title: 'My Portfolio created using ReactJS framework',
     github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-portfolio/tree/main/florin-marius-drilea-portfolio',
     demo: IMG2
   },
   {
     id: 3,
-    image: IMG1,
-    title: 'Project number 3',
-    github: 'https://github.com',
-    demo: 'image'
+    image: IMG3,
+    title: 'Simple Romanian Wordle game built with javacsript',
+    github: 'https://github.com/FlorinMariusDrilea/wordle-simple-js',
+    demo: IMG3
   },
   {
     id: 4,
-    image: IMG1,
-    title: 'Project number 4',
-    github: 'https://github.com',
-    demo: 'image'
-  },
-  {
-    id: 5,
-    image: IMG1,
-    title: 'Project number 5',
-    github: 'https://github.com',
-    demo: 'image'
-  },
-  {
-    id: 6,
-    image: IMG1,
-    title: 'Project number 6',
-    github: 'https://github.com',
-    demo: 'image'
+    image: IMG4,
+    title: 'RobotFriends search engine using ReactJS',
+    github: 'https://github.com/FlorinMariusDrilea/robots',
+    demo: 'https://florinmariusdrilea.github.io/robots/'
   }
 ]
 
@@ -64,7 +52,7 @@ function Portfolio() {
                 <h3>{title}</h3>
                 <div className="portfolio__item__cta">
                   <a href={github} className='btn' target="_blank" rel="noreferrer">Github</a>
-                  <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Image</a>
+                  <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Image/Demo</a>
                 </div>
               </article>
             )

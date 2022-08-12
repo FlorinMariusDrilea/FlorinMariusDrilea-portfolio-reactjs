@@ -10,17 +10,30 @@ header {
     position: relative;
 }
 
-/* ======= CTA =========== */
+.header__container h1 {
+    font-size: 40px;
+}
 
-.cta {
+.header__container h1:hover {
+    transition: all 1s ease-in-out; 
+    transform: scale(1.3);
+}
+
+/* ======= CV =========== */
+
+.cv {
     margin-top: 1rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 1.6rem;
     justify-content: center;
 }
 
-.cta > a.btn-primary {
+.cv > a.btn-primary {
     background: var(--color-primary);
+}
+
+.cv > a:hover {
+    transform: scale(1.2);
 }
 
 /* ======= SOCIALS =========== */
@@ -36,6 +49,10 @@ header {
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
+}
+
+.header__socials a:hover {
+    transform: scale(1.8);
 }
 
 /* ======= ME IMAGE =========== */
@@ -61,6 +78,10 @@ header {
     bottom: 6rem;
     font-weight: 500;
     font-size: 0.9rem;
+}
+
+.scroll__down:hover {
+    transform: scale(1.4);
 }
 
 /* =================== MEDIA(Medium Devices) ====================== */
