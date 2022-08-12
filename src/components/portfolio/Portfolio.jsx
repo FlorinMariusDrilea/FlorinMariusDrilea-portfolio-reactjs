@@ -19,7 +19,7 @@ const imageData = [
     id: 2,
     image: IMG2,
     title: 'My Portfolio created using ReactJS framework',
-    github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-portfolio/tree/main/florin-marius-drilea-portfolio',
+    github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-portfolio-reactjs',
     demo: IMG2
   },
   {
