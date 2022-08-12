@@ -17,10 +17,10 @@ const Footer = () => {
             </ul>
             
             <div className="footer__socials">
-                <a href="https://www.instagram.com/marius_drilea98/"><FiInstagram /></a>
-                <a href="https://www.linkedin.com/in/florin-marius-drilea/"><FaLinkedin /></a>
-                <a href="https://github.com/FlorinMariusDrilea"><FaGithub /></a>
-                <a href="https://twitter.com/DrileaMarius"><FaTwitter /></a>
+                <a href="https://www.instagram.com/marius_drilea98/" aria-label="Instagram"><FiInstagram /></a>
+                <a href="https://www.linkedin.com/in/florin-marius-drilea/" aria-label="Linkedin"><FaLinkedin /></a>
+                <a href="https://github.com/FlorinMariusDrilea" aria-label="Github"><FaGithub /></a>
+                <a href="https://twitter.com/DrileaMarius" aria-label="Twitter"><FaTwitter /></a>
             </div>
             
             <div className="footer__copyright">

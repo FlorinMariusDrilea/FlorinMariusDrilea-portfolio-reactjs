@@ -36,13 +36,13 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                    Hardworking and team working person, with different experiences during my degree and during my work experience time at the companies in which I was involved. Keen to learn new skills and develop my existing ones while working in a friendly environment.
+                        Hardworking and team working person, with different experiences during my degree and during my work experience time at the companies in which I was involved. Keen to learn new skills and develop my existing ones while working in a friendly environment.
                     <br />
                     <br />
-                    Preferred languages are Scala, Java, Python, C# and Javascript, with additional development experience with Spring, Kafka, ReactJS, Angular, SQL, Docker, building REST services and work with JSON. AGILE-minded engineering professional with a Bachelor's degree in Computer Science at the University of Sheffield.
+                        Preferred languages are Scala, Java, Python, C# and Javascript, with additional development experience with Spring, Kafka, ReactJS, Angular, SQL, Docker, building REST services and work with JSON. AGILE-minded engineering professional with a Bachelor's degree in Computer Science at the University of Sheffield.
                     <br />
                     <br />
-                    Currently, I am working for Sky Betting & Gaming as a Software Engineer.
+                        Currently, I am working for Sky Betting & Gaming as a Software Engineer.
                     </p>
                 </div>
             </div>
