@@ -1,10 +1,10 @@
 import React from 'react'
-import IMG1 from '../../assets/weather-1.png'
-import IMG2 from '../../assets/portfolio.png'
-import IMG3 from '../../assets/wordle.png'
-import IMG4 from '../../assets/robots.png'
-import IMG5 from '../../assets/football.png'
-import IMG6 from '../../assets/calculator.png'
+import IMG1 from '../../assets/weather-1.webp'
+import IMG2 from '../../assets/portfolio.webp'
+import IMG3 from '../../assets/wordle.webp'
+import IMG4 from '../../assets/robots.webp'
+import IMG5 from '../../assets/football.webp'
+import IMG6 from '../../assets/calculator.webp'
 import './portfolio.css'
 
 const imageData = [

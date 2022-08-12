@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
-import ME from '../../assets/img1-low.png'
-import SCROLL from '../../assets/scroll-down.png'
+import ME from '../../assets/img1-low.webp'
+import SCROLL from '../../assets/scroll-down.webp'
 import CV from './CVButton'
 import Socials from './HeaderSocials'
 

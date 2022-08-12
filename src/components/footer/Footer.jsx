@@ -1,7 +1,7 @@
 import React from 'react'
 import { FiInstagram } from 'react-icons/fi'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import SIGNATURE from '../../assets/signature.png'
+import SIGNATURE from '../../assets/signature.webp'
 import './footer.css'
 
 const Footer = () => {

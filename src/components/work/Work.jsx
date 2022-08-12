@@ -1,8 +1,8 @@
 import React from 'react'
-import Job1 from '../../assets/sky.png'
+import Job1 from '../../assets/sky.webp'
 import Job2 from '../../assets/thg.webp'
-import Job3 from '../../assets/crucible.jpeg'
-import Job4 from '../../assets/unicredit.jpeg'
+import Job3 from '../../assets/crucible.webp'
+import Job4 from '../../assets/unicredit.webp'
 import { Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
