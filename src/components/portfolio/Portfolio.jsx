@@ -20,14 +20,14 @@ const imageData = [
     image: IMG2,
     title: 'My Portfolio created using ReactJS framework',
     github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-portfolio-reactjs',
-    demo: IMG2
+    demo: 'https://florin-marius-drilea.netlify.app/'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Simple Romanian Wordle game built with javacsript',
     github: 'https://github.com/FlorinMariusDrilea/wordle-simple-js',
-    demo: IMG3
+    demo: 'https://wordle-romanian-version.netlify.app'
   },
   {
     id: 4,
