@@ -4,7 +4,7 @@ import IMG2 from '../../assets/portfolio.webp'
 import IMG3 from '../../assets/wordle.webp'
 import IMG4 from '../../assets/robots.webp'
 import IMG5 from '../../assets/football-2.webp'
-import IMG6 from '../../assets/calculator.webp'
+import IMG6 from '../../assets/linktree.webp'
 import './portfolio.css'
 
 const imageData = [
@@ -46,9 +46,9 @@ const imageData = [
   {
     id: 6,
     image: IMG6,
-    title: 'A simple Python calculator using PySimpleGUI library',
-    github: 'https://github.com/FlorinMariusDrilea/python-calculator',
-    demo: IMG6
+    title: 'Link tree website including my social media and portfolio',
+    github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-linktree',
+    demo: 'https://linktree-florin-marius-drilea.netlify.app/'
   }
 ]
 
