@@ -36,7 +36,7 @@ nav a.active {
         position: fixed;
         width: max-content;
         z-index: 1;
-        top: 20%;
+        top: 30%;
         left: 2rem;
         overflow-x: hidden;
         border-radius: 3rem;
@@ -48,7 +48,7 @@ nav a.active {
         padding: 0.9rem;
         border-radius: 50%;
         display: flex;
-        font-size: 0.8rem;
+        font-size: 1.0rem;
     }
 }
 
@@ -119,13 +119,13 @@ nav a.active {
         bottom: 2rem;
         display: flex;
         gap: 0.8rem;
-        border-radius: 3rem;
+        border-radius: rem;
         backdrop-filter: blur(15px);
     }
     
     nav a {
         background: transparent;
-        padding: 0.9rem;
+        padding: 0.6rem;
         border-radius: 50%;
         display: flex;
         font-size: 1.1rem;
