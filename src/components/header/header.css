@@ -59,14 +59,14 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22.5rem;
-    height: 28rem;
+    width: 20rem;
+    height: 30rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 10rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 10rem 10rem 0 0;
     overflow: hidden;
-    padding: 5.5rem 1.5rem 1.5rem 1rem;
+    padding: 7rem 0.5rem 0.5rem 0;
 }
 
 /* ======= SCROLL-DOWN =========== */
@@ -74,7 +74,7 @@ header {
 .scroll__down {
     position: absolute;
     width: 40px;
-    right: -2.8rem;
+    right: -4rem;
     bottom: 6rem;
     font-weight: 500;
     font-size: 0.9rem;
@@ -94,6 +94,11 @@ header {
     section {
         margin-top: 6rem;
     }
+    
+    .scroll__down {
+        right: -2rem;
+        bottom: 2rem;
+    }
 }
 
 /* =================== MEDIA(PHONES/TABLETS) ====================== */
@@ -106,4 +111,10 @@ header {
     section > h2 {
         margin-bottom: 2rem;
     }
+    
+    .scroll__down {
+        right: -1.4rem;
+        bottom: 2rem;
+    }
+    
 }
