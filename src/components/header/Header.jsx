@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import ME from '../../assets/image-head-cropped.png'
+import ME from '../../assets/image-head-cropped.webp'
 import SCROLL from '../../assets/scroll-down.webp'
 import CV from './CVButton'
 import Socials from './HeaderSocials'

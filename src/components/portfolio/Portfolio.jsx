@@ -1,6 +1,6 @@
 import React from 'react'
-import IMG1 from '../../assets/weather-1.webp'
-import IMG2 from '../../assets/portfolio.webp'
+import IMG1 from '../../assets/portfolio.webp'
+import IMG2 from '../../assets/weather-1.webp'
 import IMG3 from '../../assets/wordle.webp'
 import IMG4 from '../../assets/robots.webp'
 import IMG5 from '../../assets/football-2.webp'
@@ -11,16 +11,16 @@ const imageData = [
   {
     id: 1,
     image: IMG1,
-    title: 'Weather Show using weather API with javascript',
-    github: 'https://github.com/FlorinMariusDrilea/weather-api-javascript',
-    demo: IMG1
+    title: 'My Portfolio created using ReactJS framework',
+    github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-portfolio-reactjs',
+    demo: 'https://florin-marius-drilea.netlify.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'My Portfolio created using ReactJS framework',
-    github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-portfolio-reactjs',
-    demo: 'https://florin-marius-drilea.netlify.app/'
+    title: 'Weather Show using weather API with javascript',
+    github: 'https://github.com/FlorinMariusDrilea/weather-api-javascript',
+    demo: IMG2
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const imageData = [
   {
     id: 6,
     image: IMG6,
-    title: 'Link tree website including my social media and portfolio',
+    title: 'Link tree website including my social media',
     github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-linktree',
     demo: 'https://linktree-florin-marius-drilea.netlify.app/'
   }
