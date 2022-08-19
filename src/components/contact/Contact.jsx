@@ -32,15 +32,9 @@ const Contact = () => {
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
-                    <label id="textLabel" for="text">
-                        <input type='text' name='name' placeholder='Your Name' required />
-                    </label>
-                    <label id="emailLabel" for="email">
-                        <input type='email' name='email' placeholder='Your Email' required />
-                    </label>
-                    <label id="messageLabel" for="message">
-                        <textarea name='message' rows="10" placeholder='Write here' required />
-                    </label>
+                    <input type='text' name='name' placeholder='Your Name' required />
+                    <input type='email' name='email' placeholder='Your Email' required />
+                    <textarea name='message' rows="10" placeholder='Write here' required />
                     <button class="button-pushable">
                         <span class="button-shadow"></span>
                         <span class="button-edge"></span>

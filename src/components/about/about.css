@@ -6,7 +6,7 @@
 
 .about__me {
     width: 100%;
-    border-radius: 3rem;
+    border-radius: 48px;
     aspect-ratio: 1/1;
     place-items: center;
     display: grid;
@@ -22,7 +22,7 @@
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 2rem;
+    border-radius: 32px;
     padding: 1.5rem;
     text-align: center;
     transition: var(--transition);
@@ -64,7 +64,7 @@
     }
     
     .about__me__image img {
-        border-radius: 4rem;
+        border-radius: 64px;
         display: block;
         width: 100%;
         height: 100%;
@@ -106,7 +106,7 @@
     
     .about__me__image {
         margin-top: 4rem;
-        border-radius: 5rem;
+        border-radius: 80px;
         overflow: hidden;
         transition: var(--transition);
         margin-bottom: 8rem;

@@ -20,7 +20,7 @@
     background: var(--color-bg-variant);
     text-align: center;
     padding: 1.8rem;
-    border-radius: 4rem;
+    border-radius: 64px;
     border: 0.2rem solid var(--color-light);
     user-select: none;
 }
