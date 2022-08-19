@@ -15,6 +15,7 @@ const Nav = () => {
             <a href="#works" onClick={() => setActiveNavi('#work')} className={activeNav === '#work' ? 'active' : ''} title="Work"><MdWorkOutline /></a>
             <a href="#portfolio" onClick={() => setActiveNavi('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''} title="Portfolio"><BiBook /></a>
             <a href="#contact" onClick={() => setActiveNavi('#contact')} className={activeNav === '#contact' ? 'active' : ''} title="Contact"><BiMessageSquareDetail /></a>
+            
         </nav>
     )
 }

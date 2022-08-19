@@ -11,7 +11,7 @@ const imageData = [
   {
     id: 1,
     image: IMG1,
-    title: 'Weather Show using API with javascript',
+    title: 'Weather Show using weather API with javascript',
     github: 'https://github.com/FlorinMariusDrilea/weather-api-javascript',
     demo: IMG1
   },
@@ -32,7 +32,7 @@ const imageData = [
   {
     id: 4,
     image: IMG4,
-    title: 'RobotFriends search engine using ReactJS',
+    title: 'RobotFriends search engine using ReactJS + an api',
     github: 'https://github.com/FlorinMariusDrilea/robots',
     demo: 'https://florinmariusdrilea.github.io/robots/'
   },
@@ -61,16 +61,18 @@ function Portfolio() {
         {
           imageData.map(({id, image, title, github, demo}) => {
             return (
-              <article key={id} className='portfolio__items'>
-                <div className="portfolio__item__image">
-                  <img src={image} alt={title} />
-                </div>
-                <h3>{title}</h3>
-                <div className="portfolio__item__cta">
-                  <a href={github} className='btn' target="_blank" rel="noreferrer">Github</a>
-                  <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Image/Demo</a>
-                </div>
-              </article>
+              <div className='slide-container'>
+                <article key={id} className='portfolio__items'>
+                  <div className="portfolio__item__image">
+                    <img src={image} alt={title} />
+                  </div>
+                  <h3>{title}</h3>
+                  <div className="portfolio__item__cta">
+                    <a href={github} className='btn' target="_blank" rel="noreferrer">Github</a>
+                    <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Image/Demo</a>
+                  </div>
+                </article>
+              </div>
             )
           })
         }

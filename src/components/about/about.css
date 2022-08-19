@@ -13,13 +13,6 @@
     
 }
 
-.about__me__image {
-    margin-top: 4rem;
-    border-radius: 5rem;
-    overflow: hidden;
-    transition: var(--transition);
-}
-
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,6 +55,42 @@
     color: var(--color-light);
 }
 
+@media screen and (min-width: 1024px) {
+    .about__me__image {
+        width: 250px;
+        height: 450px;
+        margin: 20px auto 40px auto;
+        perspective: 1024px
+    }
+    
+    .about__me__image img {
+        border-radius: 4rem;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        transform-style: preserve-3d;
+        transform: rotateY(45deg);
+        transition: all 1.2s;  
+    }
+    
+    .about__me__image:hover img {
+        transform: rotateX(20deg);
+    }
+    
+    .about__me__image img:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));    
+        transform: rotateX(90deg);
+        transform-origin: bottom;
+    }
+}
+
 /* =================== MEDIA(MEDIUM) ====================== */
 
 @media screen and (max-width: 1024px) {
@@ -76,6 +105,10 @@
     }
     
     .about__me__image {
+        margin-top: 4rem;
+        border-radius: 5rem;
+        overflow: hidden;
+        transition: var(--transition);
         margin-bottom: 8rem;
         height: 110%;
     }

@@ -36,7 +36,7 @@ nav a.active {
         position: fixed;
         width: max-content;
         z-index: 1;
-        top: 30%;
+        top: calc(100vh) - 50%;
         left: 2rem;
         overflow-x: hidden;
         border-radius: 3rem;
