@@ -31,9 +31,9 @@ const Contact = () => {
                         <a href="https://wa.me/+447716312297" target="_blank" rel="noreferrer">Contact me by phone!</a>
                     </article>
                 </div>
-                <form ref={form} onSubmit={sendEmail}>
-                    <input type='text' name='name' placeholder='Your Name' required />
-                    <input type='email' name='email' placeholder='Your Email' required />
+                <form ref={form} id="form" onSubmit={sendEmail}>
+                    <input id='name' type='name' name='name' placeholder='Your Name' pattern='(^[a-zA-Z][a-zA-Z\s]{0,40}[a-zA-Z]$)'/>
+                    <input id='email' type='email' name='email' placeholder='Your Email' />
                     <textarea name='message' rows="10" placeholder='Write here' required />
                     <button class="button-pushable">
                         <span class="button-shadow"></span>
