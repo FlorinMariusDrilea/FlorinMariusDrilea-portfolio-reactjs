@@ -1,6 +1,6 @@
 import React from 'react'
 import IMG1 from '../../assets/portfolio.webp'
-import IMG2 from '../../assets/tinder.webp'
+import IMG2 from '../../assets/tinder.jpeg'
 import IMG3 from '../../assets/wordle.webp'
 import IMG4 from '../../assets/robots.webp'
 import IMG5 from '../../assets/football-2.webp'
