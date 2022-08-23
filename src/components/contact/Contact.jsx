@@ -10,6 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_bm4vcql', 'template_adpcv7p', form.current, 'user_ug48gVlKhZb8pjDFyeV14')
+        alert("Message submitted!")
         e.target.reset()
     };
     
@@ -32,8 +33,8 @@ const Contact = () => {
                     </article>
                 </div>
                 <form ref={form} id="form" onSubmit={sendEmail}>
-                    <input id='name' type='name' name='name' placeholder='Your Name' pattern='(^[a-zA-Z][a-zA-Z\s]{0,40}[a-zA-Z]$)'/>
-                    <input id='email' type='email' name='email' placeholder='Your Email' />
+                    <input id='name' type='name' name='name' placeholder='Your Name' required pattern='(^[a-zA-Z][a-zA-Z\s]{0,40}[a-zA-Z]$)'/>
+                    <input id='email' type='email' name='email' placeholder='Your Email' required pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$' />
                     <textarea name='message' rows="10" placeholder='Write here' required />
                     <button class="button-pushable">
                         <span class="button-shadow"></span>
