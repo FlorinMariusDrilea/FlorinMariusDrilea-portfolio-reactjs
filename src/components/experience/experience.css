@@ -7,16 +7,19 @@
 .experience__container > div {
     padding: 2.4rem 5rem;
     border-radius: 32px;
-    border: 1px solid transparent;
     transition: var(--transition);
 }
 
 .experience__backend {
-    background: var(--color-bg-variant);
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
+    border-radius: 64px;
+    border: 0.2rem solid var(--color-light);
 }
 
 .experience__frontend {
-    background: var(--color-primary);
+    border-radius: 24px;
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
+    border: 2px solid var(--color-light);
 }
 
 .experience__container > div:hover {
@@ -45,6 +48,10 @@
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-bg);
+}
+
+.experience__details-icon > .experience__backend:hover {
+    color: var(--color-light);
 }
 
 /* =================== MEDIA(MEDIUM) ====================== */

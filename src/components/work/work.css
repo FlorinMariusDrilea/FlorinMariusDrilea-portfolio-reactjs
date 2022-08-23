@@ -17,7 +17,7 @@
 }
 
 .work__job {
-    background: var(--color-bg-variant);
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
     text-align: center;
     padding: 1.8rem;
     border-radius: 64px;

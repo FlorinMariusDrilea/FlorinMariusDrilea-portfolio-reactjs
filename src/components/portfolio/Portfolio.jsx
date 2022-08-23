@@ -1,6 +1,6 @@
 import React from 'react'
 import IMG1 from '../../assets/portfolio.webp'
-import IMG2 from '../../assets/weather-1.webp'
+import IMG2 from '../../assets/tinder.webp'
 import IMG3 from '../../assets/wordle.webp'
 import IMG4 from '../../assets/robots.webp'
 import IMG5 from '../../assets/football-2.webp'
@@ -18,8 +18,8 @@ const imageData = [
   {
     id: 2,
     image: IMG2,
-    title: 'Weather Show using weather API with javascript',
-    github: 'https://github.com/FlorinMariusDrilea/weather-api-javascript',
+    title: 'A clone of Tinder Website version built with JS/MongoDB',
+    github: 'https://github.com/FlorinMariusDrilea/tinder-app-similar/tree/main/tinder-clone-similar',
     demo: IMG2
   },
   {
@@ -69,7 +69,7 @@ function Portfolio() {
                   <h3>{title}</h3>
                   <div className="portfolio__item__cta">
                     <a href={github} className='btn' target="_blank" rel="noreferrer">Github</a>
-                    <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Image/Demo</a>
+                    <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Demo</a>
                   </div>
                 </article>
               </div>

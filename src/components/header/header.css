@@ -25,7 +25,7 @@ h1 {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
-    width: 140px;
+    width: 160px;
     animation: type 2s steps(40,end) forwards;
 }
 
@@ -36,7 +36,7 @@ h1 {
     background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
     font-weight: 800;
     white-space: nowrap;
-    width: 380px;
+    width: 420px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
@@ -49,7 +49,7 @@ h1 {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
-    width: 90px;
+    width: 120px;
     animation: type 2s steps(40,end) 5s forwards;
 }
 
@@ -59,7 +59,7 @@ h1 {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
-    width: 150px;
+    width: 180px;
     animation: type 3s steps(40,end) 7s forwards;
 }
 
@@ -120,7 +120,7 @@ h1 {
 }
 
 .cv > a.btn-primary {
-    background: var(--color-primary);
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
 }
 
 .cv > a:hover {
@@ -139,7 +139,7 @@ h1 {
 .header__socials::after {
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
 }
 
 .header__socials a:hover {
@@ -149,7 +149,7 @@ h1 {
 /* ======= ME IMAGE =========== */
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-primary-variant), transparent);
     width: 20rem;
     height: 30rem;
     position: absolute;
@@ -165,7 +165,7 @@ h1 {
 .scroll__down {
     position: absolute;
     width: 40px;
-    right: -4rem;
+    right: 12rem;
     bottom: 6rem;
     font-weight: 500;
     font-size: 0.9rem;
@@ -187,7 +187,7 @@ h1 {
     }
     
     .scroll__down {
-        right: -2rem;
+        right: 2rem;
         bottom: 2rem;
     }
 }
@@ -204,8 +204,8 @@ h1 {
     }
     
     .scroll__down {
-        right: -0.8rem;
-        bottom: 8rem;
+        right: 1rem;
+        bottom: 2rem;
         width: 24px;
     }
     

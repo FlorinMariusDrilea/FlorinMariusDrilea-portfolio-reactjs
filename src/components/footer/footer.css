@@ -3,7 +3,7 @@ footer {
     font-size: 1.1rem;
     text-align: center;
     margin-top: 5rem;
-    background: var(--color-bg-variant);
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
 }
 
 footer a {
@@ -50,7 +50,7 @@ footer a {
 }
 
 .footer__socials a:hover {
-    background: transparent;
+    background: white;
     color: var(--color-bg);
     border-color: var(--color-bg);
 }

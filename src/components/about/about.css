@@ -20,10 +20,10 @@
 }
 
 .about__card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
+    border: 2px solid white;
     border-radius: 32px;
-    padding: 1.5rem;
+    padding: 1.6rem;
     text-align: center;
     transition: var(--transition);
 }

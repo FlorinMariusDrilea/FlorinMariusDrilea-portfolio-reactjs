@@ -5,10 +5,10 @@
 }
 
 .portfolio__items {
-    background: var(--color-bg-variant);
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
     padding: 2rem;
     border-radius: 48px;
-    border: 1px solid transparent;
+    border: 2px solid var(--color-light);
     transition: var(--transition);
 }
 

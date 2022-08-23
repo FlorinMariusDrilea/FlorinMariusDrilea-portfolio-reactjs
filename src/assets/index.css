@@ -166,7 +166,7 @@ a:hover {
   background: linear-gradient(
     to left,
     var(--color-bg-variant) 0%,
-    var(--color-primary) 30%,
+    var(--color-bg-variant) 30%,
     var(--color-primary-variant) 92%,
     var(--color-primary-variant) 100%
   );
@@ -179,7 +179,7 @@ a:hover {
   border-radius: 12px;
   font-size: 1.2rem;
   color: white;
-  background: var(--color-bg-variant);
+  background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
   will-change: transform;
   transform: translateY(-4px);
   transition:
