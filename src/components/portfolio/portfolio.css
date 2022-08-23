@@ -4,6 +4,14 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.box {
+    display: grid;
+}
+
+.box :first-child {
+    align-self: center;
+}
+
 .portfolio__items {
     background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
     padding: 2rem;

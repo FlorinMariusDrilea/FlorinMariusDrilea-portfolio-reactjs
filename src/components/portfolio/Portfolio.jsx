@@ -61,7 +61,7 @@ function Portfolio() {
         {
           imageData.map(({id, image, title, github, demo}) => {
             return (
-              <div className='slide-container'>
+              <div className='box'>
                 <article key={id} className='portfolio__items'>
                   <div className="portfolio__item__image">
                     <img src={image} alt={title} />
