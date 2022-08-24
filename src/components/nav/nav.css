@@ -45,14 +45,14 @@ nav a.active {
     
     nav a {
         background: transparent;
-        padding: 0.9rem;
+        padding: 1.2rem;
         border-radius: 50%;
         display: flex;
         font-size: 1.0rem;
     }
 }
 
-@media screen and (max-height: 568px) {
+@media screen and (max-height: 620px) {
     nav {
         background: rgba(0, 0, 0, 0.3);
         position: fixed;
@@ -67,7 +67,7 @@ nav a.active {
     
     nav a {
         background: transparent;
-        padding: 0.9rem;
+        padding: 1.2rem;
         border-radius: 50%;
         display: flex;
         font-size: 1.0rem;
@@ -98,14 +98,14 @@ nav a.active {
     
     nav a {
         background: transparent;
-        padding: 0.9rem;
+        padding: 1.2rem;
         border-radius: 50%;
         display: flex;
         font-size: 1.1rem;
     }
 }
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 480px) {
     nav {
         background: rgba(0, 0, 0, 0.3);
         width: max-content;
@@ -124,7 +124,7 @@ nav a.active {
     
     nav a {
         background: transparent;
-        padding: 0.6rem;
+        padding: 0.7rem;
         border-radius: 50%;
         display: flex;
         font-size: 1.1rem;
