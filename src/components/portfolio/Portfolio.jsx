@@ -32,14 +32,14 @@ const imageData = [
   {
     id: 4,
     image: IMG4,
-    title: 'RobotFriends search engine using ReactJS + an api',
+    title: 'RobotFriends search engine using ReactJS',
     github: 'https://github.com/FlorinMariusDrilea/robots',
     demo: 'https://florinmariusdrilea.github.io/robots/'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Football Clicker using javascript, html and css',
+    title: 'Football Clicker game using javascript and html',
     github: 'https://github.com/FlorinMariusDrilea/football-clicker',
     demo: 'https://florinmariusdrilea.github.io/football-clicker/main.html'
   },
