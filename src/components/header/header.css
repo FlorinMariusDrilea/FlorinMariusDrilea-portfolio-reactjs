@@ -34,9 +34,9 @@ h1 {
     margin: 0 auto auto auto;
     font-size: 40px;
     background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
-    font-weight: 800;
+    font-weight: 700;
     white-space: nowrap;
-    width: 420px;
+    width: 380px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
@@ -197,6 +197,10 @@ h1 {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-with-sm);
+    }
+
+    .header__container h1:nth-child(2) {
+        font-size: 36px;
     }
     
     section > h2 {
