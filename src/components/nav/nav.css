@@ -1,10 +1,12 @@
 nav {
     background: rgba(0, 0, 0, 0.3);
     position: fixed;
+    display: flex;
     width: max-content;
     z-index: 1;
-    top: 30%;
-    left: 2rem;
+    left: -7rem;
+    top: 50%;
+    rotate: 90deg;
     overflow-x: hidden;
     border-radius: 48px;
     backdrop-filter: blur(15px);
@@ -13,9 +15,11 @@ nav {
 nav a {
     background: transparent;
     color: var(--color-light);
+    rotate: -90deg;
     display: block;
-    padding: 1.4rem;
-    font-size: 1rem;
+    line-height: 1.0;
+    padding: 1.3rem;
+    font-size: 1.2rem;
     border-radius: 50%;
 }
 
@@ -30,36 +34,12 @@ nav a.active {
 
 /* =================== MEDIA(MEDIUM) ====================== */
 
-@media screen and (max-width: 1024px) {
-    nav {
-        background: rgba(0, 0, 0, 0.3);
-        position: fixed;
-        width: max-content;
-        z-index: 1;
-        top: calc(100vh) - 50%;
-        left: 2rem;
-        overflow-x: hidden;
-        border-radius: 48px;
-        backdrop-filter: blur(15px);
-    }
-    
-    nav a {
-        background: transparent;
-        padding: 1.2rem;
-        border-radius: 50%;
-        display: flex;
-        font-size: 1.0rem;
-    }
-}
-
 @media screen and (max-height: 620px) {
     nav {
         background: rgba(0, 0, 0, 0.3);
         position: fixed;
         width: max-content;
         z-index: 1;
-        top: 30%;
-        left: 2rem;
         overflow-x: hidden;
         border-radius: 48px;
         backdrop-filter: blur(15px);
@@ -70,7 +50,6 @@ nav a.active {
         padding: 1.2rem;
         border-radius: 50%;
         display: flex;
-        font-size: 1.0rem;
     }
 }
 
@@ -82,7 +61,7 @@ nav a.active {
     nav {
         background: rgba(0, 0, 0, 0.3);
         width: max-content;
-        padding: 0.7rem 1.7rem;
+        padding: 0.8rem 1.7rem;
         display: block;
         z-index: 2;
         position: fixed;
@@ -94,6 +73,7 @@ nav a.active {
         gap: 0.8rem;
         border-radius: 48px;
         backdrop-filter: blur(15px);
+        rotate: none;
     }
     
     nav a {
@@ -101,7 +81,8 @@ nav a.active {
         padding: 0.6rem;
         border-radius: 50%;
         display: flex;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        rotate: none;
     }
 }
 
@@ -117,6 +98,7 @@ nav a.active {
         top: auto;
         transform: translateX(-50%);
         bottom: 2rem;
+        rotate: none;
         display: flex;
         gap: 0.8rem;
         backdrop-filter: blur(15px);
@@ -128,5 +110,6 @@ nav a.active {
         border-radius: 50%;
         display: flex;
         font-size: 1.1rem;
+        rotate: none;
     }
 }
