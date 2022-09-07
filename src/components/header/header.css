@@ -152,9 +152,9 @@ h1 {
     background: linear-gradient(var(--color-primary-variant), transparent);
     width: 20rem;
     height: 30rem;
-    position: absolute;
+    position:relative;
     left: calc(50% - 10rem);
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-radius: 160px 160px 0 0;
     overflow: hidden;
     padding: 7rem 0.5rem 0.5rem 0;
