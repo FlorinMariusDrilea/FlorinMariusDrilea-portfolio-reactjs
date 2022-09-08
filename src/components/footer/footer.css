@@ -3,9 +3,9 @@ footer {
     font-size: 1.1rem;
     text-align: center;
     margin-top: 5rem;
-    background: -webkit-gradient(linear, left top, right top, from(var(--color-primary-variant)), color-stop(var(--color-primary)), to(var(--color-primary)));
-    background: -o-linear-gradient(left, var(--color-primary-variant), var(--color-primary), var(--color-primary));
-    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
+    background: -webkit-gradient(linear, left top, right top, from(var(--color-primary-variant)), color-stop(var(--color-primary)), to(var(--color-primary-variant)));
+    background: -o-linear-gradient(left, var(--color-primary-variant), var(--color-primary), var(--color-primary-variant));
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary-variant));
 }
 
 footer a {
