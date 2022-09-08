@@ -1,5 +1,7 @@
 .about__container {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 35% 15% 50%;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
@@ -9,22 +11,29 @@
     border-radius: 48px;
     aspect-ratio: 1/1;
     place-items: center;
+    display: -ms-grid;
     display: grid;
     
 }
 
 .about__cards {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 1.5rem 1fr 1.5rem 1fr;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
 .about__card {
+    background: -webkit-gradient(linear, left top, right top, from(var(--color-primary-variant)), color-stop(var(--color-primary)), to(var(--color-primary)));
+    background: -o-linear-gradient(left, var(--color-primary-variant), var(--color-primary), var(--color-primary));
     background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
     border: 2px solid white;
     border-radius: 32px;
     padding: 1.6rem;
     text-align: center;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
     transition: var(--transition);
 }
 

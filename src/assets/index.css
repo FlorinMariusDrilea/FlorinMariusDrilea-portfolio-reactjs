@@ -5,7 +5,8 @@
     padding: 0;
     border: 0;
     outline: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
@@ -92,7 +93,8 @@ section > h2 {
 img {
     display: block;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 a {
@@ -127,34 +129,61 @@ a:hover {
 }
 
 .button-pushable {
-  position: relative;
-  border: 2rem;
-  border-color: white;
-  background: transparent;
-  padding: 0;
-  cursor: pointer;
-  outline-offset: 4px;
-  transition: filter 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    position: relative;
+    border: 2rem;
+    border-color: white;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    -webkit-transition: -webkit-filter 250ms;
+    transition: -webkit-filter 250ms;
+    -o-transition: filter 250ms;
+    transition: filter 250ms;
+    transition: filter 250ms, -webkit-filter 250ms;
+    -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-user-select: none;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
 }
 
 .button-shadow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  background: hsl(0deg 0% 0% / 0.25);
-  will-change: transform;
-  transform: translateY(2px);
-  transition:
-    transform
-    4ms
-    cubic-bezier(.3, .7, .4, 1);
-}
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    -webkit-transform: translateY(2px);
+        -ms-transform: translateY(2px);
+            transform: translateY(2px);
+    -webkit-transition:
+        -webkit-transform
+        4ms
+        cubic-bezier(.3, .7, .4, 1);
+    transition:
+        -webkit-transform
+        4ms
+        cubic-bezier(.3, .7, .4, 1);
+    -o-transition:
+        transform
+        4ms
+        cubic-bezier(.3, .7, .4, 1);
+    transition:
+        transform
+        4ms
+        cubic-bezier(.3, .7, .4, 1);
+    transition:
+        transform
+        4ms
+        cubic-bezier(.3, .7, .4, 1), -webkit-transform
+        4ms
+        cubic-bezier(.3, .7, .4, 1);
+    }
 
 .button-edge {
   position: absolute;
@@ -223,7 +252,6 @@ a:hover {
 .button-pushable:focus:not(:focus-visible) {
   outline: none;
 }
-
 
 /* =================== MEDIA(MEDIUM) ====================== */
 

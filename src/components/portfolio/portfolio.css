@@ -1,10 +1,13 @@
 .portfolio__container {
+    display: -ms-grid;
     display: grid;
     gap: 2rem;
+    -ms-grid-columns: 1fr 2rem 1fr 2rem 1fr;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .box {
+    display: -ms-grid;
     display: grid;
 }
 
@@ -13,10 +16,14 @@
 }
 
 .portfolio__items {
+    background: -webkit-gradient(linear, left top, right top, from(var(--color-primary-variant)), color-stop(var(--color-primary)), to(var(--color-primary)));
+    background: -o-linear-gradient(left, var(--color-primary-variant), var(--color-primary), var(--color-primary));
     background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary), var(--color-primary));
     padding: 2rem;
     border-radius: 48px;
     border: 2px solid var(--color-light);
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
     transition: var(--transition);
 }
 
