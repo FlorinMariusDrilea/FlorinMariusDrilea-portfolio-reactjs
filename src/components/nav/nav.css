@@ -1,16 +1,12 @@
 nav {
     background: rgba(0, 0, 0, 0.3);
     position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
     z-index: 1;
     left: -7rem;
     top: 50%;
-    rotate: 90deg;
+    transform: rotate(90deg);
     overflow-x: hidden;
     border-radius: 48px;
     -webkit-backdrop-filter: blur(15px);
@@ -20,7 +16,7 @@ nav {
 nav a {
     background: transparent;
     color: var(--color-light);
-    rotate: -90deg;
+    transform: rotate(-90deg);
     display: block;
     line-height: 1.0;
     padding: 1.3rem;

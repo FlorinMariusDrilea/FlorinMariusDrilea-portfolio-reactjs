@@ -36,10 +36,10 @@ const Contact = () => {
                     <input id='name' type='name' name='name' placeholder='Your Name' required pattern='(^[a-zA-Z][a-zA-Z\s]{0,40}[a-zA-Z]$)'/>
                     <input id='email' type='email' name='email' placeholder='Your Email' required pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$' />
                     <textarea name='message' rows="10" placeholder='Write here' required />
-                    <button class="button-pushable">
-                        <span class="button-shadow"></span>
-                        <span class="button-edge"></span>
-                        <span class="button-front">Send</span>
+                    <button className="button-pushable">
+                        <span className="button-shadow"></span>
+                        <span className="button-edge"></span>
+                        <span className="button-front">Send</span>
                     </button>
                 </form>
             </div>
