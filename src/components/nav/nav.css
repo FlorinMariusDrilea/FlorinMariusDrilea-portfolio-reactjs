@@ -37,7 +37,7 @@ nav a.active {
 
 /* =================== MEDIA(MEDIUM) ====================== */
 
-@media screen and (max-height: 620px) {
+@media only screen and (max-height: 480) {
     nav {
         background: rgba(0, 0, 0, 0.3);
         position: fixed;
@@ -52,6 +52,7 @@ nav a.active {
         background: transparent;
         padding: 1.2rem;
         border-radius: 50%;
+        transform: rotate(0);
         display: flex;
     }
 }
@@ -59,7 +60,7 @@ nav a.active {
 
 /* =================== MEDIA(SMALL) ====================== */
 
-@media screen and (max-width: 600px) {
+/* @media only screen and (max-width: 400px) {
     
     nav {
         background: rgba(0, 0, 0, 0.3);
@@ -86,10 +87,12 @@ nav a.active {
         display: flex;
         font-size: 1.2rem;
         rotate: none;
+        transform: rotate(0);
     }
-}
+} */
 
-@media screen and (max-height: 480px) {
+@media screen and (max-height: 550px),
+       screen and (max-width: 650px) {
     nav {
         background: rgba(0, 0, 0, 0.3);
         width: max-content;
@@ -113,6 +116,7 @@ nav a.active {
         border-radius: 50%;
         display: flex;
         font-size: 1.1rem;
+        transform: rotate(0);
         rotate: none;
     }
 }
