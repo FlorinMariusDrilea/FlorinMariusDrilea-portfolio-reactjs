@@ -7,9 +7,9 @@
     width: 5rem;
     aspect-ratio: 1/1;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 60%;
     margin: 0.3rem auto 0.8rem;
-    border: 0.1rem solid var(--color-light);
+    border: 0.05rem solid var(--color-light);
 }
 
 .work__job h3 {
