@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/Florin_Marius_Drilea.pdf'
+import CV from '../../assets/CV-SHORT.pdf'
 
 const CVButton = () => {
   return (
