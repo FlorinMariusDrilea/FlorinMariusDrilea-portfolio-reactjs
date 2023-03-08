@@ -5,6 +5,7 @@ import IMG3 from '../../assets/wordle.webp'
 import IMG4 from '../../assets/robots.webp'
 import IMG5 from '../../assets/football-2.webp'
 import IMG6 from '../../assets/linktree.webp'
+import IMG7 from '../../assets/kafka-app.jpeg'
 import './portfolio.css'
 
 const imageData = [
@@ -49,6 +50,13 @@ const imageData = [
     title: 'Link tree website including my social media',
     github: 'https://github.com/FlorinMariusDrilea/FlorinMariusDrilea-linktree',
     demo: 'https://linktree-florin-marius-drilea.netlify.app/'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Small kafka application to stream data from an input to an output (car - data)',
+    github: 'https://github.com/FlorinMariusDrilea/car-data-kafka-streams-springboot',
+    demo: ""
   }
 ]
 
@@ -69,7 +77,8 @@ function Portfolio() {
                   <h3>{title}</h3>
                   <div className="portfolio__item__cta">
                     <a href={github} className='btn' target="_blank" rel="noreferrer">Github</a>
-                    <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Demo</a>
+                    {demo &&
+                      <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Demo</a>}
                   </div>
                 </article>
               </div>
